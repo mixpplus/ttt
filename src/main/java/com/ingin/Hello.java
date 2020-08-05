@@ -47,6 +47,8 @@ public class Hello {
         String format2 = String.format("%s-%s", "ni", "hao");
         System.out.println(format);
 
+        System.out.println("hello world");
+
     }
 
 
