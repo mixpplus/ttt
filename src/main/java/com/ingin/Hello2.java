@@ -20,7 +20,6 @@ public class Hello2 {
         String format = String.format("%s-%s", "ni", "hao");
         System.out.println(format);
 
-
         if (StrUtil.isEmpty("he")) {
             System.out.println("hello");
         }
