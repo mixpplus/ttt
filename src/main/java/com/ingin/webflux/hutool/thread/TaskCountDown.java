@@ -21,6 +21,7 @@ public class TaskCountDown implements Runnable{
             Console.log("finished ...");
         } finally {
             countDownLatch.countDown();
+            Console.log("count: " + countDownLatch.getCount());
         }
 
     }
